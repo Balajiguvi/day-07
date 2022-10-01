@@ -1,4 +1,4 @@
-// q1)Get all the countries from Asia continent /region using Filter function
+// 1.Get all the countries from Asia continent /region using Filter function
 var request1=new XMLHttpRequest();
 request1.open('GET', 'https://restcountries.com/v3.1/all');
 request1.send();
@@ -13,7 +13,7 @@ request1.onload= function print() {
 
 
 
-// q2)Get all the countries with a population of less than 2 lakhs using Filter function
+// 2.Get all the countries with a population of less than 2 lakhs using Filter function
 
 var request1=new XMLHttpRequest();
 request1.open('GET', 'https://restcountries.com/v3.1/all');
@@ -26,7 +26,7 @@ request1.onload= function print() {
     console.log(filterdArray)
     
 }
-// q3)Print the following details name, capital, flag using forEach function
+// 3.Print the following details name, capital, flag using forEach function
 var request1=new XMLHttpRequest();
 request1.open('GET', 'https://restcountries.com/v3.1/all');
 request1.send();
@@ -40,7 +40,7 @@ request1.onload= function print() {
     
 }
 
-// q4)Print the total population of countries using reduce function
+// 4.Print the total population of countries using reduce function
 var request1=new XMLHttpRequest();
 request1.open('GET', 'https://restcountries.com/v3.1/all');
 request1.send();
@@ -53,7 +53,7 @@ request1.onload= function print() {
     
 }
 
-// q5)Print the country which uses US Dollars as currency.
+// 5.Print the country which uses US Dollars as currency.
 var request1=new XMLHttpRequest();
 request1.open('GET', 'https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json');
 request1.send();
